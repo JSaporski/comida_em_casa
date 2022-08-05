@@ -1,139 +1,153 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/flex.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Comida em Casa</title>
+  </head>
 
-  <title>Comida em Casa</title>
-</head>
+  <body>
+    <header class="header-menu js-menu">
+      <div class="flex-container">
+        <a href="#" class="logo">
+          <img src="./img/logotipo-1.png" alt="Comida em Casa Logo" />
+        </a>
 
-<body>
-  <header class="header-menu">
-    <div class="menu-container">
-      <a href="#" class="logo">
-        <img src="./img/logotipo-1.png" alt="Comida em Casa Logo">
-      </a>
-
-      <nav class="menu-nav">
-        <ul>
-          <li><a href="#">História</a></li>
-          <li><a href="#">Doe</a></li>
-          <li><a href="#">Contato</a></li>
-          <li><a href="#"><span>Registre-se</span></a></li>
-          <li><a href="#" class="btn-login">Login</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main class="intro">
-    <h1>Ajude uma família hoje. Doe <span>cestas básicas</span>!</h1>
-    <p>faça a diferença na vida dessas pessoas com apenas alguns cliques</p>
-
-    <a href="#">doar</a>
-  </main>
-
-  <section class="sobre">
-    <h2 class="subtitulo">Quem Somos?</h2>
-
-    <div class="sobre-container">
-      <div class="sobre-texto">
-        <p>
-          O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de
-        </p>
-
-        <p>
-          O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de
-        </p>
-
-        <p>
-          O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.
-        </p>
-      </div>
-
-      <div class="equipe">
-        <img src="img/foto-equipe.jpg" alt="Foto da Equipe">
-      </div>
-
-      <div class="sociesc">
-        <img src="img/logo-sociesc.jpg" alt="Logo da Sociesc">
-      </div>
-    </div>
-
-    <p class="call">conheça mais o nosso trabalho</p>
-
-    <a href="#">História</a>
-  </section>
-
-  <section class="parcerias">
-    <h2 class="subtitulo">ONGs Parceiras</h2>
-
-    <div class="parcerias-container">
-      <div class="parceiros">
-        <img src="img/logo-parcerias.jpg" alt="Logo Parceria">
-      </div>
-
-      <div class="parceiros">
-        <img src="img/logo-parcerias.jpg" alt="Logo Parceria">
-      </div>
-
-      <div class="parceiros">
-        <img src="img/logo-parcerias.jpg" alt="Logo Parceria">
-      </div>
-
-      <div class="parceiros">
-        <img src="img/logo-parcerias.jpg" alt="Logo Parceria">
-      </div>
-    </div>
-
-    <p class="call">conheça mais o nosso trabalho</p>
-
-    <a href="#">História</a>
-  </section>
-
-  <section class="quote">
-    <div>
-      <h2>“Na Caridade Não Há Excessos.”</h2>
-      <cite>Francis Bacon</cite>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <div class="footer-container">
-      <div class="copy">
-        <p>© EstúdioDev 2021 - Alguns direitos reservados.</p>
-      </div>
-
-      <div class="mapa-nav">
-        <h3>Mapa do Site</h3>
-
-        <nav class="mapa-site">
+        <nav class="menu-nav">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">História</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Doe</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#">Registre-se</a></li>
+            <li><a href="#intro">História</a></li>
+            <li><a href="#sobre">Doe</a></li>
+            <li><a href="#parcerias">Contato</a></li>
+            <li>
+              <a href="#"><span>Registre-se</span></a>
+            </li>
+            <li><a href="#" class="btn-login">Login</a></li>
           </ul>
         </nav>
+      </div>
+    </header>
 
-        <span>qualquercoisa@unisociesc.com.br</span>
+    <main id="intro" class="intro js-scroll">
+      <h1>Ajude uma família hoje. Doe <span>cestas básicas</span>!</h1>
+      <p>faça a diferença na vida dessas pessoas com apenas alguns cliques</p>
 
-        <span>(47) 3512-3100</span>
+      <a href="#">doar</a>
+    </main>
+
+    <section id="sobre" class="sobre js-scroll">
+      <h2 class="subtitulo">Quem Somos?</h2>
+
+      <div class="sobre-container flex-container">
+        <div class="sobre-texto flex-item-5">
+          <p>
+            O Lorem Ipsum é um texto modelo da indústria tipográfica e de
+            impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por
+            estas indústrias desde o ano de
+          </p>
+
+          <p>
+            O Lorem Ipsum é um texto modelo da indústria tipográfica e de
+            impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por
+            estas indústrias desde o ano de
+          </p>
+
+          <p>
+            O Lorem Ipsum é um texto modelo da indústria tipográfica e de
+            impressão.
+          </p>
+        </div>
+
+        <div class="equipe flex-item-4">
+          <img src="img/foto-equipe.jpg" alt="Foto da Equipe" />
+        </div>
+
+        <div class="sociesc flex-item-3">
+          <img src="img/logo-sociesc.jpg" alt="Logo da Sociesc" />
+        </div>
       </div>
 
-      <div class="footer-sociesc" style="text-align: right; margin: 0 10px;">
-        <p style="font-size: 1.125em; font-weight: bold;">UniSociesc</p>
-      </div>
-    </div>
-  </footer>
-</body>
+      <p class="call">conheça mais o nosso trabalho</p>
 
+      <a href="#">História</a>
+    </section>
+
+    <section id="parcerias" class="parcerias js-scroll">
+      <h2 class="subtitulo">ONGs Parceiras</h2>
+
+      <div class="parcerias-container flex-container">
+        <div class="parceiros flex-item-3">
+          <img src="img/logo-parcerias.jpg" alt="Logo Parceria" />
+        </div>
+
+        <div class="parceiros flex-item-3">
+          <img src="img/logo-parcerias.jpg" alt="Logo Parceria" />
+        </div>
+
+        <div class="parceiros flex-item-3">
+          <img src="img/logo-parcerias.jpg" alt="Logo Parceria" />
+        </div>
+
+        <div class="parceiros flex-item-3">
+          <img src="img/logo-parcerias.jpg" alt="Logo Parceria" />
+        </div>
+      </div>
+
+      <p class="call">conheça mais o nosso trabalho</p>
+
+      <a href="#">História</a>
+    </section>
+
+    <section class="quote js-scroll">
+      <div class="quote-container">
+        <h2>“Na Caridade Não Há Excessos.”</h2>
+        <cite>Francis Bacon</cite>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container flex-container">
+        <div class="copy flex-item-5">
+          <p>© EstúdioDev 2021 - Alguns direitos reservados.</p>
+        </div>
+
+        <div class="mapa-nav flex-item-5">
+          <h3>Mapa do Site</h3>
+
+          <nav class="mapa-site">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">História</a></li>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Doe</a></li>
+              <li><a href="#">Contato</a></li>
+              <li><a href="#">Registre-se</a></li>
+            </ul>
+          </nav>
+
+          <span>qualquercoisa@unisociesc.com.br</span>
+
+          <span>(47) 3512-3100</span>
+        </div>
+
+        <div class="footer-sociesc flex-item-2">
+          <p style="font-size: 1.125em; font-weight: bold">UniSociesc</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
 </html>
